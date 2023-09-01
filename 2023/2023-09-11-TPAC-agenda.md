@@ -36,11 +36,10 @@ The FedID CG TPAC Monday session will be held from 11:30-13:00 CEST, which trans
 * FedCM demo and browser status 
   * Chrome
   * Firefox
-  * Brave (in case we have representation)
-  * Safari (in case we have representation)
 
-* Status of testbed and how to use it
-
+*  Lightweight browser interaction vs heavier engagement
+  * Firefox proposal (Ben)
+  * What’s the relationship between FedCM and the SAA? (Johann)
 
 * AOB
 

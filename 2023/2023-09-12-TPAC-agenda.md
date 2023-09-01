@@ -33,9 +33,11 @@ The FedID CG TPAC Tuesday session will be held from 09:30-13:00, which translate
   * Reminders: 
     * W3C Code of Ethics and Professional Conduct
 
-*  Lightweight browser interaction vs heavier engagement
-  * Firefox proposal (Ben)
-  * What’s the relationship between FedCM and the SAA? (Johannes)
+* FedCM demo and browser status (cont'd)
+  * Brave (in case we have representation)
+  * Safari (in case we have representation)
+ 
+* Status of testbed and how to use it
 
 * [Working Group charter](https://github.com/fedidcg/fedidcg.github.io/blob/main/charters/Proposed-WG-WebIdentityCredentials.md) discussion 
   * Is the FedCM spec firm enough? Or are there enough foundational unresolved issues before we move to a WG? Do we want to continue working through these at the CG rather than the WG? (Sam)
