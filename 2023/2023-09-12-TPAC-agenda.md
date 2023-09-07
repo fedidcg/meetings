@@ -2,7 +2,7 @@
 
 ## Logistics
 
-The FedID CG TPAC Tuesday session will be held from 09:30-13:00, which translates to:
+The FedID CG TPAC Tuesday session will be held from 09:30-11:00, which translates to:
 
 | Time         | Day    | Location      |
 | ------------ | ------ | ------------- |
