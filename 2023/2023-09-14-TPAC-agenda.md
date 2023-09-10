@@ -22,24 +22,20 @@ The FedID CG TPAC Thursday session will be held from 09:30-13:00, which translat
 
 ## Agenda
 
-* Administrivia
+* Welcome & Administrivia (09:30-09:35)
   * Scribe volunteer(s)?
   * Reminders: 
      * [Community Group Membership](https://www.w3.org/community/fed-id/)
      * [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/)
 
-* Welcome & Administrivia
-  * Scribe volunteer(s)?
-  * Reminders: 
-    * W3C Code of Ethics and Professional Conduct
+* Open issues for FedCM (09:35-11:30)
+  * Decision required
+     * Re: Login Status - align on [breakout](https://github.com/w3c/tpac2023-breakouts/issues/61) results
+  * Other open [tickets](https://github.com/fedidcg/FedCM/issues)?
 
-* Open issues for FedCM
-  * Decision required re: Login Status
-  * Other open tickets?
-
-* Combo meeting with Web Payments WG
+* Combo meeting with Web Payments WG (11:30-12:30)
   * Open Q&A
 
-* AOB
+* AOB (12:30-13:00)
 
 
