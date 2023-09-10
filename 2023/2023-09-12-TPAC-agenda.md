@@ -22,28 +22,23 @@ The FedID CG TPAC Tuesday session will be held from 09:30-11:00, which translate
 
 ## Agenda
 
-* Administrivia
+* Welcome & Administrivia (09:30-09:35)
   * Scribe volunteer(s)?
   * Reminders: 
      * [Community Group Membership](https://www.w3.org/community/fed-id/)
      * [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/)
 
-* Welcome & Administrivia
-  * Scribe volunteer(s)?
-  * Reminders: 
-    * W3C Code of Ethics and Professional Conduct
-
-* FedCM demo and browser status (cont'd)
+* FedCM demo and browser status (cont'd) (09:35-10:00)
   * Brave (in case we have representation)
   * Safari (in case we have representation)
  
-* Status of testbed and how to use it
+* Status of [testbed](https://github.com/fedidcg/fedcm-testing) and how to use it (10:00-10:15)
 
-* [Working Group charter](https://github.com/fedidcg/fedidcg.github.io/blob/main/charters/Proposed-WG-WebIdentityCredentials.md) discussion 
+* [Working Group charter](https://github.com/fedidcg/fedidcg.github.io/blob/main/charters/Proposed-WG-WebIdentityCredentials.md) discussion (10:15-11:00)
   * Is the FedCM spec firm enough? Or are there enough foundational unresolved issues before we move to a WG? Do we want to continue working through these at the CG rather than the WG? (Sam)
   * Relationship between WG and FedID CG
+  * Charter next steps - https://github.com/w3c/strategy/issues/427
   * <https://github.com/fedidcg/fedidcg.github.io/pull/3> 
-  * Charter next steps
 
 
 
