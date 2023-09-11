@@ -28,7 +28,7 @@ The FedID CG TPAC Monday session will be held from 11:30-13:00 CEST, which trans
      * [Community Group Membership](https://www.w3.org/community/fed-id/)
      * [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/)
 
-* FedCM demo and browser status (11:30-11:45)
+* FedCM demo and browser status (11:45-12:30)
   * Chrome
   * Firefox
 
