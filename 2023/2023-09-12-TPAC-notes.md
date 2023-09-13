@@ -117,7 +117,7 @@ Scribe: Nicolas Pena Moreno
 * Achim: yea that was the authz which was shown. We agreed it shouldn’t be called authz, but yea that is ongoing. But again in my personal role, I think it must be supported.
 
 
-## Attendee list (please sign yourself in)
+## Attendee list 
 
 * Zacharias Törnblom (SUNET, Sweden’s NREN)
 * Tim Cappalli (Microsoft Identity, co-chair)
