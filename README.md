@@ -2,7 +2,7 @@
 
 This repository contains agendas, minutes, and other materials from meetings of the [FedID CG](https://www.w3.org/community/fed-id/).
 
-([Logistics, agendas, and minutes for 2024](2024/)) for all meetings are in our GitHub meetings repository. We meet in plenary twice a month. We occasionally have ad-hoc calls on specific topics and expect to meet in person at some future W3C TPAC.
+([Logistics, agendas, and minutes for 2024](2024/)) for all meetings are in our GitHub meetings repository. We meet weekly, alternating between times for Europe/Americas and APAC ([calendar](https://www.w3.org/groups/cg/fed-id/calendar/)). We occasionally have ad-hoc calls on specific topics and expect to meet in person at some future W3C TPAC.
 
 The scheduling and logistics of ad hoc calls may vary depending on the topic and expected attendees. Agendas and minutes for such meetings are posted in the same place as our regularly-scheduled plenary calls.
 
