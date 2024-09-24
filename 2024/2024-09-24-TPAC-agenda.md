@@ -10,8 +10,6 @@ Scribing doc [link](https://docs.google.com/document/d/1_M7PS9ZRhSUGsV9QnzArNc3B
         * Visitors still welcome!
      * [Code of Conduct](https://www.w3.org/policies/code-of-conduct/)
 
-* [IdP Registration API](https://github.com/w3c-fedid/idp-registration)
-
 * Lightweight FedCM Issues
    * Lightweight demo with Ben/Johann/Erica
    * Is there a way to maintain UI hint freshness without falling back to heavyweight FedCM - [issue #40](https://github.com/fedidcg/LightweightFedCM/issues/40)
