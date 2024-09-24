@@ -1,6 +1,7 @@
-# FedID Joint CG/WG Session - TPAC 2024
+# FedID Joint CG/WG Session - TPAC 2024 - CANCELLED
 ## Tuesday, 24 September @ 11:00-12:30
-Scribing doc [link](https://docs.google.com/document/d/1_M7PS9ZRhSUGsV9QnzArNc3BA9i8A2nS0PnfcngABas/edit#bookmark=id.v729wj6uovg0)
+
+See <https://github.com/w3c-fedid/meetings/blob/main/2024/2024-09-24-TPAC-agenda.md> for new joint CG/WG meeting, Tuesday, 24 September @ 14:00
 
 ## Agenda - Tuesday
 * Administrivia
