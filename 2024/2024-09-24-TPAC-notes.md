@@ -170,6 +170,7 @@ If we can reduce the number of endpoints that IDPs need to implement, it would h
 
 Ben  
 Next for lightweight FedCM: Iterate checklist for the next stage, make requests, and write spec text
+# Active Mode 
 
 30 min: [Button Mode](https://github.com/w3c-fedid/button-mode) – Yi, (now known as Active Mode)
 
@@ -206,6 +207,8 @@ Any objections? Hearing none in the room. (We’ll also ask on-list) Any issues?
   * Issue 555: [Allow IdPs to continue and finish the request in a popup window](https://github.com/w3c-fedid/FedCM/issues/555)  
   * Issue 556: [Passing arbitrary parameters to the ID assertion endpoint](https://github.com/w3c-fedid/FedCM/issues/556)  
   * Issue 559: [Allow RPs to selectively request attributes of the user’s profile](https://github.com/w3c-fedid/FedCM/issues/559)
+
+# Continuation API
 
 Christian  
 Continuation API bundle demo (Continuation API, Params API, Fields API)
@@ -260,6 +263,8 @@ I don’t see anything that stops it from moving to stage 2\.
 Heather  
 No objections to moving this to stage 2\.
 
+# Multiple Config URLs
+
 Christian  
 \[ Demo of multiple config URLs \]  
 Proposing to move this mode API proposal to stage 2\.
@@ -269,6 +274,8 @@ How do you know which config URL to use?
 
 Christian  
 RP specifies the config URL. This proposal checks that the account's endpoint matches the config URL.
+
+# Account Labels 
 
 Christian  
 \[ Demo of account labels \]  
@@ -324,7 +331,7 @@ Wendy: sounds good to me, we’ll provisionally send the email and ask the peopl
 \[agenda-juggling\]  
 Wendy: let’s prioritize the issues that the folks in the room need to discuss
 
-SAA Auto-grant 
+# SAA Auto-grant 
 
 - Chris: as we were discussing earlier there is the SAA auto grant, this has now been implemented in chrome and is in origin trials …   
 - Chris: there is a repository for the explainer for this … [https://github.com/explainers-by-googlers/storage-access-for-fedcm](https://github.com/explainers-by-googlers/storage-access-for-fedcm)   
@@ -342,7 +349,8 @@ SAA Auto-grant
 - Ben: good insight to think about in terms of Lightweight  
 - John: some people have suggested browser UI to show “currently logged in” but real estate is limited. I’m going to havre to read up on the explainer
 
-LoginStatus  
+# LoginStatus  
+
 John: as editor in PrivacyCG, see three goals. 1, move CG spec, repo, to WG. As editor, I favor that. Then transition to a joint understanding of how it should work with the document Sam has led. Assume we should do that in pieces, motivation, shape of API, etc. 3\. Have some feedback from me that we don’t really like the strings status as in Chrome, but would prefer functions.  So everyone knows, for us, the login status has much broader use than FedCM. Experimentational implementation connected to Webauthn, trustworthy signal  
 Christian: What's your proposal regarding strings vs functions?  
 John: functions setLoggedIn(), setLoggedOut(). Open to TAG feedback  
