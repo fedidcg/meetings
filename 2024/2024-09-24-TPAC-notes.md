@@ -83,6 +83,8 @@
 Heather  
 Session will be extended until 5pm to make up for the lost session earlier this morning.
 
+# Lightweight
+
 Ben  
 Lightweight Fedcm ([explainer](https://github.com/fedidcg/LightweightFedCM/blob/main/README.md)) is trying to make FedCM as copy pastable and as easy to deploy as possible while preserving many of its qualities. You can store a credential on the IDP origin and provide a list of things either dynamically or statically then request it from the credential store i.e. WebAuthn, navigator.credentials.get or a URL to navigate to if you don’t have a credential.  
 \-Demo- ([demo site)](https://lightweight-fedcm-provider.glitch.me/) ([source](https://glitch.com/~lightweight-fedcm-provider))  
