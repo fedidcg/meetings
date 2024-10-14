@@ -50,7 +50,7 @@
 # Demos
 ## Demo 1: Yi Gu (Chrmome FedCM API)
 - Demo \#1: Yi Gu (Chrome FedCM API, @yigu)  
-  - Mobage (gaming portal, IdP for games) ; Times Internet — IdP, portal, but still cross-site FedCM onboarding and IdP; Seznam.cz — general-purpose/search-oriented portal; Ameda/aid.no; SIW Google accounts;  
+  - Mobage (gaming portal, IdP for games); Times Internet — IdP, portal, but still cross-site FedCM onboarding and IdP; Seznam.cz — general-purpose/search-oriented portal; Ameda/aid.no; SIW Google accounts;
     - Screengrabs from Chrome and Edge; also working with Gecko and Webkit   
   - Status quo: thousands of websites → 0.9% of pageloads in Chrome invoking this API today  
   - Q\&A  
