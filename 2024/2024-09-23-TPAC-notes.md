@@ -33,8 +33,8 @@
 
 ## Notes 
 
-- Intros and Administrativa  
-- CG/WG Process  
+# Intros and Administrativa  
+# CG/WG Process  
   - Wendy: here is the CG/WG process on how the various deliverables move [https://github.com/w3c-fedid/Administration/blob/main/proposals-CG-WG.md](https://github.com/w3c-fedid/Administration/blob/main/proposals-CG-WG.md)  
   - Stage 0: to understand the problem, open to all from the Community Groups  
   - Stage 1: understand also the solution, there is consensus from the group. Small features are issues, when there is a champion, they can ask chairs for a repo.  
@@ -45,9 +45,12 @@
   - Sam : It is a work in progress to help us to incrementally build consensus.  
   - Wendy: Feel free to create a PR on [the process](https://github.com/w3c/process), process it here to help us, not to block us.  
     - Heather: Explicitly marking stages helps people jump in at any point (or catch up at TPAC sessions) — valuable signposting (as well as interest signaling); we’re making this very explicit and hope other w3c groups will adapt this method  
-  - Heather: First public working draft — lots of issues opened by it, many of them blocking/serious  
+  - Heather: First public working draft — lots of issues opened by it, many of them blocking/serious
+  - 
+# Demos
+## Demo 1: Yi Gu (Chrmome FedCM API)
 - Demo \#1: Yi Gu (Chrome FedCM API, @yigu)  
-  - Mobage (gaming portal, IdP for games) ; Times Internet — IdP, portal, but still cross-site FedCM onboarding and IdP; Seznam.cz — general-purpose/search-oriented portal; Ameda/aid.no; SIW Google accounts;  
+  - Mobage (gaming portal, IdP for games); Times Internet — IdP, portal, but still cross-site FedCM onboarding and IdP; Seznam.cz — general-purpose/search-oriented portal; Ameda/aid.no; SIW Google accounts;
     - Screengrabs from Chrome and Edge; also working with Gecko and Webkit   
   - Status quo: thousands of websites → 0.9% of pageloads in Chrome invoking this API today  
   - Q\&A  
@@ -62,7 +65,10 @@
     - Q Sam Goto: Precisely because intrusion (from the IdP and RP) is a concern, we think the browser needs to have at least as much;   
     - Brian Campbell: I disagree; the SP/RP is the one with a right to intrude; conflict of interest for the browser to suggest its own IdP…;   
     - Sam: But website/RP can be adversarial in many cases, so browser intruding can offer more agency than over-empowering the RP to intrude;  
-    - Ben: I want to add on Brian’s point that there is a lot of risk of confusion or deception here; it’s unclear what information has already been shared, what is browser versus what is website; context-collapse might be nudging end-user towards a decision (something something post- 3rd party cookie desperation?)  
+    - Ben: I want to add on Brian’s point that there is a lot of risk of confusion or deception here; it’s unclear what information has already been shared, what is browser versus what is website; context-collapse might be nudging end-user towards a decision (something something post-3rd party cookie desperation?)
+    - 
+## Demo 2, Aaron Parecki, webmention.io IndieAuth
+
 - Demo \#2 — Aaron Parecki — webmention.io dynamic client registration experimental feature (stage 1? Behind feature flags in Chrome at least); this demo aims to show “how IdP shows up in the list”; previous demo models today’s NASCAR world (RP lists all pre-known trusted IdPs); but this demo shows the opposite, browser populating list from pre-known IdPs that the RP has never heard of;  
   - This is similar in trust model to email OTP — RP has never heard of your email server, but uses OTP and linkback to authenticate new IdP  
   - Status quo: end-user types in IdP domain from memory (cf. Mastodon, webmention, etc); FedCM experimental feature allows browser to provide without end-user having to remember and type it out;  
@@ -76,7 +82,10 @@
       - Write ups:   
         - [https://indieweb.org/FedCM\_for\_IndieAuth](https://indieweb.org/FedCM_for_IndieAuth)   
         - [https://github.com/aaronpk/oauth-fedcm-profile](https://github.com/aaronpk/oauth-fedcm-profile)   
-        - [https://github.com/w3c-fedid/idp-registration](https://github.com/w3c-fedid/idp-registration)   
+        - [https://github.com/w3c-fedid/idp-registration](https://github.com/w3c-fedid/idp-registration)
+          
+## Demo 3: NPM, showing gmx.de and web.de 
+
 - Demo \#3: npm1: gmx.de and web.de   
   - FedCM to date is 1 IdP at a time; the goal here was to help a single GET call pass an array of IdPs; origin trial in chrome 128 until early next year; main partner is netID (big european IdP) which is motivated to work on this because they operate across many domains and regional products,   
   - Note: this single-GET model doesn’t solve all multi-IdP cases, there are some better served by one GET per IdP;   
@@ -85,7 +94,9 @@
   - Looking for more partners  
   - API isn’t that different, just changes one field to an array; fetches; other change is that content-URL is provided in response  
   - Q\&A: Ashima: note: if one of the IdPs are already signed-in, that gets bubbled up to the top of the UI;   
-    - Heather: Come to breakout\!  
+    - Heather: Come to breakout\!
+## Demo 4, Sign in with Google, Active Mode origin trial 
+
 - Demo \#4: Sign in with Google — Active Mode origin trial  
   - Gina: Pinterest, Canva, and LinkedIn are all trialing it with us;   
   - Vitalii: Not present in the demo: Continuation API (which would allow additional information for informed consent, etc.);    
@@ -98,7 +109,8 @@
     - John: I think the spec should be explicit about how much the end-user is shown about what info is being shared in all these directions, not just IdP⟷RP;   
     - ??: if i can nuance, RP/first party has a lot of control here over how much the IdP gets, and user-tracking vis-a-vis the browser/aggregator is important to the end-user, but here what we can control is how much the end-user learns about the RP⟷IDP info flows;  
 - Chair interrupt: Lightweight moved to first slot tomorrow; this is important stuff to discuss because of UI hints;   
-  - Ben: I think there are synergies here between my session tomorrow and Aaron’s webmention demo, since our IdP makes available little bits to RPs   
+  - Ben: I think there are synergies here between my session tomorrow and Aaron’s webmention demo, since our IdP makes available little bits to RPs
+## Demo 5, Joel Antoci (Shopify) 
 - Demo \#5:   
   - Joel: Here from Shopify, talking about importance of signing in on ecommerce site, what FedCM enables us to do.  
   - SIW Shop \= buyer-facing ID platform for shoppers to authenticate themselves early (before checkout) to minimize friction to checkout, much higher conversion rate so super crucial to us to strengthen this .  
