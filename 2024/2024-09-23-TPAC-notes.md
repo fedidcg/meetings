@@ -65,7 +65,7 @@
     - Q Sam Goto: Precisely because intrusion (from the IdP and RP) is a concern, we think the browser needs to have at least as much;   
     - Brian Campbell: I disagree; the SP/RP is the one with a right to intrude; conflict of interest for the browser to suggest its own IdP…;   
     - Sam: But website/RP can be adversarial in many cases, so browser intruding can offer more agency than over-empowering the RP to intrude;  
-    - Ben: I want to add on Brian’s point that there is a lot of risk of confusion or deception here; it’s unclear what information has already been shared, what is browser versus what is website; context-collapse might be nudging end-user towards a decision (something something post- 3rd party cookie desperation?)
+    - Ben: I want to add on Brian’s point that there is a lot of risk of confusion or deception here; it’s unclear what information has already been shared, what is browser versus what is website; context-collapse might be nudging end-user towards a decision (something something post-3rd party cookie desperation?)
     - 
 ## Demo 2, Aaron Parecki, webmention.io IndieAuth
 
